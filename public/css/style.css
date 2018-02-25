@@ -1,0 +1,257 @@
+* {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.chatApplication {
+    width: 600px;
+    margin: 0 auto;
+    display: table;
+	position:relative;
+}
+.setusername-box {
+    width: 100%;
+    background: #dedede;
+    padding: 40px;
+    margin-top: 45px;
+}
+.user {
+    width: 100%;
+    height: 60px;
+    padding: 10px;
+    font-size: 35px;
+    letter-spacing: 10px;
+}
+#userBtn {
+    width: 100%;
+    padding: 15px;
+    font-size: 25px;
+    margin-top: 15px;
+    background: #8bc449;
+    border: none;
+    color: #ffffff;
+    border-radius: 4px;
+	cursor:pointer;
+}
+.chat-wall {
+    width: 100%;
+    display: none;
+}
+.chat-app {
+    width: 100%;
+    margin: 0 auto;
+    padding: 15px 25px;
+    border: 1px solid #dedede;
+    background: #f9f9f9;
+}
+.chatapp-list {
+	list-style:none;
+	display:table;
+	width:100%;
+}
+.chatapp-list li {
+    float: left;
+    margin-right: 19px;
+    line-height: 38px;
+	font-family: sans-serif;
+}
+.chatapp-list li:first-child {
+	width:25%;
+	font-size:13px;
+	line-height:52px;
+}
+.chatapp-list li:nth-child(2) {
+	width:50%;
+}
+.chatapp-list li:last-child {
+	width:15%;
+	margin-right:0;
+	line-height:25px;
+}
+.fileicon-box {
+    overflow: hidden;
+    width: 100%;
+	position:relative;
+}
+.fileicon-box:before {
+    content: "\f03e";
+    font-family: fontAwesome;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+	pointer-events:none;
+}
+.sendFile {
+    opacity: 0;
+}
+.inputField {
+    width: 100%;
+    height: 52px;
+    border: 1px solid #dedede;
+    border-radius: 2px;
+    padding: 5px;
+}
+.btnSend {
+    padding: 5px 10px;
+    background: #4CAF50;
+    border: none;
+    color: #ffffff;
+    display: block;
+    width: 100%;
+    border-radius: 3px;
+    text-align: center;
+}
+.chat-head {
+    text-align: center;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 20px;
+    color: #3F51B5;
+    font-weight: bold;
+}
+.chat-box {
+    width: 100%;
+    margin: 0 auto;
+    padding: 25px 10px;
+    border: 1px solid #dedede;
+    border-bottom: transparent;
+    height: 320px;
+    overflow-y: scroll;
+    overflow-x:hidden;
+    position: relative;
+}
+.chatText {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    color: #ffffff;
+    width: 100%;
+    margin: 0 auto;
+    background: #8BC34A;
+    padding: 10px;
+    margin-top: 30px;
+}
+.myText {
+    text-align: left;
+    display: block;
+    padding: 5px 25px;
+    width: 65%;
+	float:left;
+	clear:both;
+}
+.myText p {
+    background: #8BC34A;
+    font-family: sans-serif;
+    color: #ffffff;
+    font-size: 14px;
+	padding:5px;
+	word-wrap:break-word;
+}
+.frndText {
+    text-align: right;
+    display: block;
+    padding: 5px 25px;
+	width:65%;
+	float:right;
+	clear:both;
+}
+.outputBox {
+    display: table;
+    width: 100%;
+}
+.frndText p {
+    background: #FF9800;
+    font-family: sans-serif;
+    color: #ffffff;
+    font-size: 14px;
+	padding:5px;
+	
+}
+.statusText {
+    display: table;
+    padding: 5px 10px 5px 15px;
+    position: relative;
+	font-family:sans-serif;
+}
+.statusText:before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    position: absolute;
+    background: #4CAF50;
+    left: 0;
+    top: 8px;
+}
+.discon:before{
+	content:"";
+	background:#E91E63;
+}
+.userBox {
+    float: left;
+    width: 25%;
+    height: 418px;
+    border: 1px solid #dedede;
+    border-right: transparent;
+    padding: 5px 10px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.send-img {
+    width: 190px;
+    padding: 5px;
+    border: 1px solid #dedede;
+    border-radius: 5px;
+    box-shadow: 0 0 9px 0px #eaeaea;
+}
+.chatBox-wrapper {
+    float: left;
+    width: 75%;
+}
+.medialist li:last-child .fileicon-box:before {
+    content: "\f0c6";
+}
+.medialist {
+    list-style: none;
+    display: table;
+    width: 100%;
+}
+.medialist li {
+    width: 27px !important;
+    float: left;
+    line-height: 21px !important;
+    margin: 0;
+    margin-right: 4px;
+}
+.medialist li:last-child {
+    margin-right: 0 !important;
+}
+.chatLink {
+    display: table;
+}
+.userActive {
+    font-family: sans-serif;
+    font-size: 12px;
+    padding: 5px;
+    padding-left: 10px;
+    position: relative;
+}
+
+.userActive:before {
+    content: "";
+    width: 8px;
+    height: 8px;
+    background: #4caf50;
+    border-radius: 100%;
+    position: absolute;
+    left: 0;
+    top: 7px;
+}
+.userBox h3 {
+    font-family: sans-serif;
+    font-size: 17px;
+    color: #8bc34a;
+}

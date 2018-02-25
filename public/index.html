@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Chat Services</title>
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+	<div class="chatApplication">
+		<!--Set user section-->
+		<div id="setUser" class="setusername-box">
+			<h2 class="chat-head">IDB Chat Application</h2>
+			<input type="text" id="username" class="user" placeholder="Enter username" required/>
+			<button type="button" id="userBtn">Let me Chat!</button>
+		</div>
+		<!--Chating wall-->
+		<div class="chat-wall">
+			<h3 class="chatText">Chating Bot</h3>
+			<div class="userBox">
+				<h3>Active Users</h3>
+				<div id="users"></div>
+			</div>
+			<div class="chatBox-wrapper">
+				<div class="chat-box">
+					<div id="conversation" class="outputBox">
+
+					</div>
+				</div>
+				<div class="chat-app">
+					<ul class="chatapp-list">
+						<li>Enter Message:</li>
+						<li>
+							<textarea type="text" class="inputField" id="data"></textarea>
+						</li>
+						<li>
+							<ul class="medialist">
+								<li>
+									<div class="fileicon-box">
+										<input type="file" accept="image/*" id="imagefile" class="sendFile" />
+									</div>
+								</li>
+								<li>
+									<div class="fileicon-box">
+										<input type="file" accept="application/pdf, application/vnd.ms-excel, application/msword, text/plain" id="otherfile" class="sendFile" />
+									</div>
+								</li>
+							</ul>
+							<button type="button" class="btnSend" id="datasend"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+    
+	
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/socket.io.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+</html>
