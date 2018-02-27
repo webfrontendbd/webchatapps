@@ -8,3 +8,13 @@ This is chat application with node.js, express.js and socket.io
   <li>Send Image</li>
   <li>Easy Layout</li>
   </ul>
+  </br>
+  </br><strong>Tools Use</strong></br>
+<ul>
+  <li>HTML5</li>
+  <li>CSS3</li>
+  <li>Font-awesome</li>
+  <li>jQuery, Node.js, Express.js</li>
+  <li>Socket.io</li>
+  </ul>
+  
