@@ -8,7 +8,6 @@ This is chat application with node.js, express.js and socket.io
   <li>Send Image</li>
   <li>Easy Layout</li>
   </ul>
-  </br>
   </br><strong>Tools Use</strong></br>
 <ul>
   <li>HTML5</li>
@@ -18,3 +17,5 @@ This is chat application with node.js, express.js and socket.io
   <li>Socket.io</li>
   </ul>
   
+  
+ <strong>Implemented By::</strong> <a style="text-decoration:none;" target="_blank" href="https://www.upwork.com/freelancers/~01dc808ed229726898">Abdur Rahim</a>
