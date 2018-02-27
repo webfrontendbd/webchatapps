@@ -1,8 +1,7 @@
 # webchatapps
 This is chat application with node.js, express.js and socket.io
 </br>
-<ul>
-  <strong>Features</strong>
+<ul><strong>Features</strong>
   <li>made with node.js, express.js and socket.io</li>
   <li>Text Chating</li>
   <li>Send File</li>
