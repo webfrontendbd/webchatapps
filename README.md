@@ -1,6 +1,6 @@
 # webchatapps
 This is chat application with node.js, express.js and socket.io
-</br><strong>Features</strong></br>
+</br><strong>Features</strong>
 <ul>
   <li>made with node.js, express.js and socket.io</li>
   <li>Text Chating</li>
@@ -16,6 +16,5 @@ This is chat application with node.js, express.js and socket.io
   <li>jQuery, Node.js, Express.js</li>
   <li>Socket.io</li>
   </ul>
-  
   
  <strong>Implemented By::</strong> <a style="text-decoration:none;" target="_blank" href="https://www.upwork.com/freelancers/~01dc808ed229726898">Abdur Rahim</a>
